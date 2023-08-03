@@ -385,17 +385,6 @@ section {
     transform: matrix(1, 0, 0, -1, 0, 0);
     z-index: 1;
   }
-
-  // .banner {
-  //   background-image: url(../img/header_bg.jpg);
-  //   background-position: center;
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  //   height: 100%;
-  //   @media (max-width: $sm) {
-  //     height: auto;
-  //   }
-  // }
 }
 
 .info {
@@ -408,9 +397,15 @@ section {
   @media (max-width: $sm) {
     padding-top: 80px;
   }
+  video {
+    max-width: 100%;
+    @media (max-width: $md) {
+      width: 100%;
+    }
+  }
   &::before {
     content: "";
-    background: url("../img/bg_main.png");
+    background: url("../img/bg_main.webp");
     background-size: contain;
     background-repeat: no-repeat;
     max-width: 1150px;
@@ -502,7 +497,7 @@ section {
         }
         &::after {
           content: "";
-          background: url("../img/circle.png");
+          background: url("../img/circle.webp");
           background-size: contain;
           background-repeat: no-repeat;
 
@@ -618,7 +613,7 @@ section {
 }
 
 .features {
-  background: url("../img/worth-bg.png") no-repeat;
+  background: url("../img/worth-bg.webp") no-repeat;
   padding: 60px 0;
   width: 100%;
   background-size: cover;
@@ -676,6 +671,12 @@ section {
 
 .booking {
   padding-top: 150px;
+  video {
+    max-width: 100%;
+    @media (max-width: $md) {
+      width: 100%;
+    }
+  }
   &-row {
     display: flex;
     color: white;
@@ -714,7 +715,7 @@ section {
         }
         &::before {
           content: "";
-          background: url("../img/circle.png");
+          background: url("../img/circle.webp");
           background-size: contain;
           animation: spin 30s linear infinite;
           width: 286px;
@@ -769,7 +770,7 @@ section {
         }
         &::before {
           content: none;
-          background: url("../img/circle.png");
+          background: url("../img/circle.webp");
           background-size: contain;
           animation: spin 30s linear infinite;
           width: 199px;
@@ -1033,7 +1034,7 @@ section {
   margin-top: 150px;
   overflow-x: clip;
   &-wrapper {
-    background: url("../img/form_bg.png");
+    background: url("../img/form_bg.webp");
     background-size: cover;
     padding-top: 45px;
     padding-bottom: 55px;
@@ -1276,7 +1277,7 @@ form {
   }
 
   &::before {
-    background: url("../img/contacts_leaf.png");
+    background: url("../img/contacts_leaf.webp");
     content: "";
     position: absolute;
     background-size: cover;
@@ -1841,7 +1842,7 @@ form {
     }
     // сircle
     &::after {
-      background: url("../img/circle.png") no-repeat;
+      background: url("../img/circle.webp") no-repeat;
       background-size: contain;
       width: 346.988px;
       height: 346.9px;
@@ -1938,7 +1939,7 @@ form {
     width: 1047px;
     height: 776px;
     position: absolute;
-    background: url("../img/jenga.png") no-repeat;
+    background: url("../img/jenga.webp") no-repeat;
     background-size: contain;
     right: 0px;
     top: -69px;
@@ -2243,7 +2244,7 @@ form {
       & > div:first-child {
         position: relative;
         &::before {
-          background: url("../img/circle.png") no-repeat;
+          background: url("../img/circle.webp") no-repeat;
           background-size: contain;
           width: 285px;
           height: 285px;
@@ -2341,7 +2342,7 @@ form {
     }
     &::before {
       content: "";
-      background: url("../img/circle.png");
+      background: url("../img/circle.webp");
       background-size: contain;
       background-repeat: no-repeat;
 
@@ -2579,7 +2580,7 @@ form {
     max-width: 600px;
     width: 100%;
     height: 330px;
-    background-image: url("../img/texture.png") !important;
+    background-image: url("../img/texture.webp") !important;
     background-color: var(--black, #163332) !important;
     display: flex;
     align-items: center;

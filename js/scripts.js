@@ -212,7 +212,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {},
       {
         iconLayout: "default#image",
-        iconImageHref: "/img/placemark-map.png",
+        iconImageHref: "/img/placemark-map.webp",
         iconImageSize: [140, 140],
         iconImageOffset: [-70, -72],
       }
