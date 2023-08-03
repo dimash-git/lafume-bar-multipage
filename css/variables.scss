@@ -1,0 +1,34 @@
+/* Fonts */
+$main-font: "Commissioner";
+$tenor: "Tenor Sans";
+
+/* Colors */
+$gold-gradient: linear-gradient(
+  90deg,
+  #a7843c 0%,
+  #c8ac68 50.52%,
+  #7e673a 100%
+);
+$dark-green: #163332;
+
+/* Device Screens */
+$xs: "480px"; // mobile
+$sm: "640px";
+$md: "768px"; // laptop
+$lg: "1024px"; // desktop
+$xl: "1280px";
+$xxl: "1440px";
+
+// Width
+$adapt-width: calc(100% - 2rem);
+
+// Mixins
+@mixin animated {
+  transition: 0.3s all ease-in-out;
+}
+
+@mixin gold-text {
+  background: $gold-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

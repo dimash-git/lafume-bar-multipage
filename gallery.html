@@ -1,0 +1,466 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Галлерея</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Commissioner:wght@200;300;400;500&amp;family=Tenor+Sans&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body class="inner-page gallery">
+    <header class="header">
+      <div class="container">
+        <div>
+          <div class="header-primary">
+            <a href="index.html" class="header__logo">
+              <img src="img/logo.svg" alt="" />
+            </a>
+            <div class="header__burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="header-secondary">
+            <div>
+              <div class="header__tel">
+                <a href="tel:+79637758461" class="number">+7 (963) 775-84-61</a>
+                <a
+                  href="javascript:void(0)"
+                  data-micromodal-trigger="modal-form"
+                  class="text"
+                  >Перезвоните мне</a
+                >
+              </div>
+              <div class="header__socials">
+                <a
+                  href="https://www.instagram.com/lafume.moscow/"
+                  target="_blank"
+                >
+                  <img src="img/instagram.svg" alt="instagram" />
+                  <img
+                    src="img/instagram-hover.svg"
+                    class="on-hover"
+                    alt="instagram"
+                  />
+                </a>
+                <a href="https://t.me/lafumemoscow" target="_blank">
+                  <img src="img/telegram.svg" alt="telegram" />
+                  <img
+                    src="img/telegram-hover.svg"
+                    class="on-hover"
+                    alt="telegram"
+                  />
+                </a>
+                <a href="https://wa.me/79637758461" target="_blank">
+                  <img src="img/whatsapp.svg" alt="whatsapp" />
+                  <img
+                    src="img/whatsapp-hover.svg"
+                    class="on-hover"
+                    alt="whatsapp"
+                  />
+                </a>
+              </div>
+            </div>
+            <div>
+              <a
+                href="javascript:void(0)"
+                data-micromodal-trigger="loyalty-form"
+                class="btn btn-loyalty"
+                data-options="{'touch' : false}"
+                ><span>Оформить карту лояльности</span></a
+              >
+              <a
+                href="javascript:void(0)"
+                data-micromodal-trigger="modal-form"
+                class="btn btn-order"
+                ><span>Забронировать</span></a
+              >
+            </div>
+          </div>
+          <div class="header__nav">
+            <ul>
+              <li><a href="menu.html">Меню</a></li>
+              <li><a href="about.html">О нас</a></li>
+
+              <li><a href="akcii.html">Акции</a></li>
+              <li><a href="gallery.html">Галерея</a></li>
+              <li><a href="reviews.html">Отзывы</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="breadcrumbs">
+      <div class="divider"></div>
+      <div class="container">
+        <div class="page-navigation">
+          Главная / <span>Жизнь в La Fume</span>
+        </div>
+      </div>
+    </div>
+    <div class="page-info">
+      <h1 class="page-title">жизнь в La Fume</h1>
+    </div>
+    <section class="lafume-life">
+      <div class="slider">
+        <div class="slider-card">
+          <img src="img/life_lafume-img_1.jpg" alt="" />
+        </div>
+        <div class="slider-card">
+          <img src="img/life_lafume-img_2.jpg" alt="" />
+        </div>
+        <div class="slider-card">
+          <img src="img/life_lafume-img_3.jpg" alt="" />
+        </div>
+        <div class="slider-card">
+          <img src="img/life_lafume-img_4.jpg" alt="" />
+        </div>
+        <div class="slider-card">
+          <img src="img/life_lafume-img_1-1.jpg" alt="" />
+        </div>
+        <div class="slider-card">
+          <img src="img/life_lafume-img_2-1.jpg" alt="" />
+        </div>
+        <div class="slider-card">
+          <img src="img/life_lafume-img_3-1.jpg" alt="" />
+        </div>
+        <div class="slider-card">
+          <img src="img/life_lafume-img_4-1.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="booking-form">
+      <div class="booking-form-wrapper">
+        <div class="container">
+          <div class="form-wrapper">
+            <h3>ХОТИТЕ ЗАБРОНИРОВАТЬ СТОЛИК?</h3>
+            <span class="disclaimer"
+              >Оставьте заявку и мы вам перезвоним!
+            </span>
+            <form name="inner" action="">
+              <div>
+                <input
+                  id="name"
+                  class="name-input"
+                  type="text"
+                  placeholder="Ваше имя"
+                />
+                <input
+                  id="phone"
+                  class="name-phone"
+                  type="text"
+                  placeholder="+7 (___)___ __ __"
+                />
+                <button value="submit" class="button-submit">
+                  <span>Отправить</span>
+                  <svg
+                    preserveAspectRatio="none"
+                    width="55"
+                    height="9"
+                    viewBox="0 0 55 9"
+                    fill="currentColor"
+                    class="button-arrow"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M54.0415 4.5L50 0.458548L45.9585 4.5L50 8.54145L54.0415 4.5ZM0 5.2H50V3.8H0V5.2Z"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="checkbox">
+                <input
+                  type="checkbox"
+                  id="agreement"
+                  value="submit"
+                  checked=""
+                />
+                <label class="checkbox-label" for="agreement"
+                  ><span
+                    >Согласие на обработку
+                    <a
+                      target="_blank"
+                      href="https://docs.google.com/document/d/1g8jqpLcoIRWDnTZeM5fDDcCWUPCbIlNxhb8Q-lslZSE/edit"
+                      >персональных данных</a
+                    ></span
+                  ></label
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-primary">
+          <a href="index.html" class="footer__logo">
+            <img src="img/logo.svg" alt="" />
+          </a>
+          <div class="footer__developer">
+            <div>
+              <p>© 2023. LAFUME</p>
+              <a
+                target="_blank"
+                href="https://docs.google.com/document/d/1g8jqpLcoIRWDnTZeM5fDDcCWUPCbIlNxhb8Q-lslZSE/edit"
+                >Политика конфиденциальности</a
+              >
+            </div>
+            <a
+              href="https://mediapanda.ru/"
+              class="footer__developer__icon"
+              target="_blank"
+              >Разработано в</a
+            >
+          </div>
+        </div>
+        <div class="footer-secondary">
+          <div class="footer__menu">
+            <div>
+              <span>Меню</span>
+              <ul>
+                <li><a href="price.html">Кальян</a></li>
+                <li><a href="price.html">Кухня</a></li>
+                <li><a href="price.html">Бар</a></li>
+              </ul>
+            </div>
+            <div>
+              <span>О нас</span>
+              <ul>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+              </ul>
+            </div>
+            <div>
+              <span>Контакты</span>
+              <ul>
+                <li><a href="tel:+7(963)775-84-61">+7 (963) 775-84-61</a></li>
+                <li>с 12.00 до 3.00</li>
+                <li>Москва, ул. Краснопрудная, 15</li>
+                <li>
+                  <a href="mailto:lafumemoscow@gmail.com"
+                    >lafumemoscow@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__socials">
+              <a
+                href="https://www.instagram.com/lafume.moscow/"
+                target="_blank"
+              >
+                <img src="img/instagram.svg" alt="instagram" />
+                <img
+                  src="img/instagram-hover.svg"
+                  class="on-hover"
+                  alt="instagram"
+                />
+              </a>
+              <a href="https://t.me/lafumemoscow" target="_blank">
+                <img src="img/telegram.svg" alt="telegram" />
+                <img
+                  src="img/telegram-hover.svg"
+                  class="on-hover"
+                  alt="telegram"
+                />
+              </a>
+              <a href="https://wa.me/79637758461" target="_blank">
+                <img src="img/whatsapp.svg" alt="whatsapp" />
+                <img
+                  src="img/whatsapp-hover.svg"
+                  class="on-hover"
+                  alt="whatsapp"
+                />
+              </a>
+            </div>
+            <div class="footer__action">
+              <a
+                href="javascript:void(0)"
+                data-micromodal-trigger="loyalty-form"
+                class="btn btn-loyalty"
+                ><span>Оформить карту лояльности</span></a
+              >
+              <a
+                href="javascript:void(0)"
+                data-micromodal-trigger="modal-form"
+                class="btn btn-order"
+                ><span>Забронировать</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+    <div
+      class="modal micromodal-slide modal-form"
+      id="loyalty-form"
+      aria-hidden="true"
+    >
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        <div class="modal__container" role="dialog" aria-modal="true">
+          <header class="modal__header">
+            <h4>ОФОРМИТЬ КАРТУ ЛОЯЛЬНОСТИ</h4>
+
+            <button
+              class="modal__close"
+              aria-label="Close modal"
+              data-micromodal-close
+            ></button>
+          </header>
+          <div class="disclaimer">Заполните форму и мы перезвоним</div>
+          <form action="">
+            <div>
+              <input name="name" id="name" type="text" placeholder="Ваше имя" />
+              <input
+                name="phone"
+                id="phone"
+                type="text"
+                placeholder="+7 (___)___ __ __"
+              />
+            </div>
+            <div class="checkbox">
+              <input
+                type="checkbox"
+                id="modal-agreement"
+                value="submit"
+                checked=""
+              />
+              <label class="checkbox-label" for="modal-agreement"
+                ><span
+                  >Согласие на обработку
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/document/d/1g8jqpLcoIRWDnTZeM5fDDcCWUPCbIlNxhb8Q-lslZSE/edit"
+                    >персональных данных</a
+                  ></span
+                ></label
+              >
+            </div>
+            <button value="submit" class="button-submit">
+              <span>Отправить</span>
+              <svg
+                preserveAspectRatio="none"
+                width="55"
+                height="9"
+                viewBox="0 0 55 9"
+                fill="currentColor"
+                class="button-arrow"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M54.0415 4.5L50 0.458548L45.9585 4.5L50 8.54145L54.0415 4.5ZM0 5.2H50V3.8H0V5.2Z"
+                ></path>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="modal micromodal-slide permit" id="permit" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1">
+        <div class="modal__container" role="dialog" aria-modal="true">
+          <div class="permit-content">
+            <h4>вам уже есть 18 лет?</h4>
+            <div>
+              <span class="btn btn-permit" data-value="yes">Да</span>
+              <span class="btn btn-permit" data-value="no">Нет</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal micromodal-slide modal-form"
+      id="modal-form"
+      aria-hidden="true"
+    >
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        <div class="modal__container" role="dialog" aria-modal="true">
+          <header class="modal__header">
+            <h4>Хотите забронировать столик?</h4>
+
+            <button
+              class="modal__close"
+              aria-label="Close modal"
+              data-micromodal-close
+            ></button>
+          </header>
+          <div class="disclaimer">Заполните форму и мы перезвоним</div>
+          <form action="">
+            <div>
+              <input name="name" id="name" type="text" placeholder="Ваше имя" />
+              <input
+                name="phone"
+                id="phone"
+                type="text"
+                placeholder="+7 (___)___ __ __"
+              />
+            </div>
+            <div class="checkbox">
+              <input
+                type="checkbox"
+                id="modal-agreement"
+                value="submit"
+                checked=""
+              />
+              <label class="checkbox-label" for="modal-agreement"
+                ><span
+                  >Согласие на обработку
+                  <a
+                    href="https://docs.google.com/document/d/1g8jqpLcoIRWDnTZeM5fDDcCWUPCbIlNxhb8Q-lslZSE/edit"
+                    >персональных данных</a
+                  ></span
+                ></label
+              >
+            </div>
+            <button value="submit" class="button-submit">
+              <span>Отправить</span>
+              <svg
+                preserveAspectRatio="none"
+                width="55"
+                height="9"
+                viewBox="0 0 55 9"
+                fill="currentColor"
+                class="button-arrow"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M54.0415 4.5L50 0.458548L45.9585 4.5L50 8.54145L54.0415 4.5ZM0 5.2H50V3.8H0V5.2Z"
+                ></path>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <script src="js/micromodal.min.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script src="https://res.smartwidgets.ru/app.js" defer></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=93b86ba3-2afb-401e-b5e0-3c42bf7641d9&lang=ru_RU"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
