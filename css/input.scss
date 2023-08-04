@@ -1457,6 +1457,9 @@ form {
         top: -4px;
         left: 103px;
       }
+      span {
+        text-decoration: underline;
+      }
       @media (max-width: $md) {
         margin-left: -60px;
       }

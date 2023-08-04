@@ -1944,6 +1944,9 @@ form .checkbox label::after {
   top: -4px;
   left: 103px;
 }
+.footer__developer__icon span {
+  text-decoration: underline;
+}
 @media (max-width: 768px) {
   .footer__developer__icon {
     margin-left: -60px;
